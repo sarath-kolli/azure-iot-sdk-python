@@ -1,0 +1,24 @@
+# IoT Hub Service Client
+> see https://aka.ms/autorest
+
+## Getting Started
+To build the IoT Hub Service Client, simply install AutoRest in Node.js via `npm` (`npm install -g autorest`) and then run:
+> `autorest serviceswagger-generator.md`
+
+To see additional help and options, run:
+> `autorest --help`
+
+For other options on installation see [Installing Autorest](https://aka.ms/autorest/install) on the AutoRest GitHub page
+
+---
+
+## Configuration
+The following are the settings for using this API with AutoRest
+
+```yaml
+input-file: service.json
+
+python:
+    namespace: serviceswagger
+    output-folder: ./
+```
